@@ -11,7 +11,7 @@ const WhetherDisplay = function (props) {
   return (
     <div>
       <p>
-        Temprature: <span style={dataStyle}>{temprature}</span>
+        Temperature: <span style={dataStyle}>{temprature}</span>
       </p>
       <p>Conditions: {conditions}</p>
     </div>
